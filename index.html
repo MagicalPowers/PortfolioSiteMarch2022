@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts Web import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Zachary Powers | Web Developer</title>
+</head>
+
+<body>
+  <nav>
+    <h1>ZACHARY POWERS</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <div class="content-wrapper">
+    <section class="hero" id="about">
+      <img src="assets/images/heroOne.svg" alt="zachary-powers" loading="lazy" class="hero-img" />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am a Full-stack web developer, and I have experience with a
+          variety of development technologies. I have excellent interpersonal
+          communication skills and more than half a decade of experience managing
+          and leading teams.
+        </p>
+      </div>
+    </section>
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>Frontend Developer with experience in developing full-stack Node.js web applications using React, Redux, Bootstrap, Javascript ES6, HTML5, CSS3, frontends using MySQL, MongoDB, Firebase databases. Experienced in implementing and using REST API architecture. Familiar with VSCode, Git, Github, Gitlab, Linux terminal, Windows Powershell, Jira, Github Projects, Trello, Balsamiq, Heroku, Svelte.js, Gimp, </p>
+      <p>Some expereience with AWS, Shopify, Wordpress, search engine optimization, Google Analytics, React Native,  </p>
+      <p>Highly adaptive, goal-oriented, creative, strong work
+        ethic, optimistic. And gosh, I love bicycles.</p>
+      </p>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/images/react-logo-icon.svg" alt="React JS" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/redux-logo-icon.svg" alt="Redux JS" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/bootstrap-logo-icon.svg" alt="Bootstap" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/" alt="HTML5" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/" alt="CSS3" loading="lazy" class="icon icon-card" />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/images/javascript-icon.svg" alt="Javascript ES6" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/git-logo-icon.svg" alt="Git" loading="lazy" class="icon icon-card" />
+          <!-- <img src="assets/images/mongodb-logo-icon.svg" alt="MongoDB" loading="lazy" class="icon icon-card" /> -->
+          <img src="assets/images/node-js-logo-icon.svg" alt="Node.js" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/" alt="Jira" loading="lazy" class="icon icon-card" />
+          <img src="assets/images/" alt="Balsamiq" loading="lazy" class="icon icon-card" />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/images/gifs/projectOneCLI.gif" alt="project-CLI-application" loading="lazy" class="project-pic" />
+          <h3 class="project-title">CLI App for Github</h3>
+          <p class="project-details">This is a sample CLI application that queries the GitHub REST API. See the README for
+            more informaion.
+          </p>
+          <a href="https://github.com/MagicalPowers/CLI-application-december2021" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/images/projectTwoDogAPI-App.png" alt="project-DogCEO-API-React.js" loading="lazy" class="project-pic" />
+          <h3 class="project-title">DogCEO API App</h3>
+          <p class="project-details">
+            A straightforward React.js App that queries the DogCEO API, via user-defined breed. Good example of React.js, Javascript usage, and API logic. 
+          </p>
+          <a href="https://github.com/MagicalPowers/dogCEO-API-queries" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/images/projectThreeGraphicKnowvel.png" alt="project-comics-collection-app" loading="lazy" class="project-pic" />
+          <h3 class="project-title">Graphic Know-Vels</h3>
+          <p class="project-details">A graphic novel and comic book collecting app.
+          </p>
+          <a href="https://github.com/MagicalPowers/mernbooks" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Reach Out</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mwkyqkgn" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="sender-name" placeholder="Whatcha called?" class="input-field"
+                required />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="sender-email" placeholder="Got an Email?" class="input-field"
+                required />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea id="message" cols="60" rows="10" placeholder="Hey! I want to say..." name="message"
+                class="input-field" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="#contact" target="_self"><img src="assets/images/google-gmail-logo-icon.svg" alt="Gmail" loading="lazy"
+        class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/zachary-powers-64880ba6/" target="_blank"><img
+        src="assets/images/linkedin-logo-icon.svg" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/MagicalPowers" target="_blank"><img src="assets/images/github-logo-icon.svg"
+        alt="Github" class="socicon" /></a>
+  </div>
+  <!-- Scroll to top -->
+  <div class="scroll-up" id="scroll-up"><img src="assets/images/up-arrow-icon.svg" class="socicon up-arrow"
+      alt="scroll-up" /></div>
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://www.linkedin.com/in/zachary-powers-64880ba6/" target="_blank">Zachary Powers</a>
+    </p>
+  </footer>
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
